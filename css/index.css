@@ -1,0 +1,319 @@
+@import "initial.css";
+/*初始化*/
+
+/*轮播图*/
+    .banner {
+        width:100%; 
+        height:475px; 
+        position:relative; 
+        overflow:hidden;
+    }
+    .banner-btn{ 
+        display:none;
+        font-size: 40px;
+        font-weight: bold; 
+    }
+    .banner-btn a{ 
+        display:block; 
+        position:absolute;
+        text-align: center;
+        top:150px; 
+        width:40px; 
+        height:100px;
+        line-height:100px; 
+        background-color: #000; 
+        opacity:0.3; 
+        filter:alpha(opacity=30) color: rgb(255, 255, 255);
+        overflow: hidden; 
+        z-index:4;
+    }
+    .prevBtn{
+        left:5px;
+    }
+    .nextBtn{
+        right:5px;
+    }
+    .banner-img{ 
+        width: 100%;
+        height: 100%;
+        font-size:0; 
+        *word-spacing:-1px;/* IE6、7 */ 
+        letter-spacing: -3px; 
+        position:relative;
+    }
+    .banner-img li{ 
+        width: 100%;
+        height: 100%;
+        display:inline-block;
+        *display:inline;
+        *zoom:1;/* IE6、7 */ 
+        vertical-align: top; 
+        letter-spacing: normal;
+        word-spacing: normal; 
+        font-size:12px;
+    }
+    .banner-img li img{
+        width: 100%;
+        height: 100%;
+    }
+    .banner-circle{ 
+        position:absolute; 
+        left:50%; 
+        bottom: 15px;
+        height: 13px;
+        text-align: center;
+        font-size: 0;b
+        order-radius: 10px; 
+        background:rgba(255,255,255,0.3); 
+        filter:alpha(opacity:30); 
+        cursor: pointer;
+    }
+    .banner-circle li{ 
+        border-radius: 10px; 
+        margin:2px; 
+        display: inline-block; 
+        display: -moz-inline-stack;
+         vertical-align: middle;
+         zoom: 1; }
+    .banner-circle li a{ 
+        display: block;
+        padding-top: 9px;
+        width: 9px;
+        height: 0;
+        border-radius: 50%; 
+        background: #B7B7B7;
+        overflow: hidden;
+    }
+    .banner-circle .selected a{ 
+        background:#F40; 
+    }
+/*轮播图结束*/
+
+/*纵览图*/
+    .index-bro {
+     	width: 1080px;
+     	margin: 0 auto;
+     	margin-top: 20px;
+     	position: relative;
+    }
+    /*展示*/
+    .index-bro .bro-display {
+    	width: 100%;
+    	height: 485px;
+    	/*background: #F3F3F3;*/
+    }
+    .bro-display .bro-centerli {
+        margin: 0 15px;
+    }
+    .bro-display li {
+    	width: 350px;
+    	height: 220px;
+    	float: left;
+    	/*margin: 10px 0 0 10px;*/
+    	position: relative;
+    }
+    .bro-display .bro-company {
+        width: 100%;
+        height: 250px;
+        margin-top: 15px; 
+    }
+    .bro-display li img {
+    	width: 100%;
+    	height: 100%;
+    }
+    .bro-display li span {
+    	background: #000;
+    	display: block;
+    	width: 100%;
+    	height: 100%;
+    	text-align: center;
+    	opacity: 0.7;
+    	position: absolute;
+    }
+    .bro-display .display-t1 {
+    	font-size: 22px;
+    	font-weight: bold;
+    	margin-top: 65.5px;
+    }
+    .bro-display .display-t2 {
+    	font-size: 16px;
+    	margin: 0 auto;
+    	margin-top: 10px;
+    	padding: 5px;
+    	width: 100px;
+    	border: 1px solid white;
+    }
+    .bro-display li span:hover {
+    	opacity: 0.2;
+    }
+/*纵览图*/
+
+/*首页公共标题栏*/
+    .index-mod-t {
+        width: 100%;
+        height: 50px;
+        background: #189AE2;
+        color: white;
+        line-height: 50px;
+    }
+    .index-mod-t1 {
+        font-size: 16px;
+        font-weight: bold;
+        margin-left: 20px;
+    }
+    .index-mod-t2 {
+        font-size: 12px;
+        font-style: italic;
+        margin-left: 10px;
+    }
+    .index-mod-t3 {
+        font-size: 14px;
+        float: right;
+        margin-right: 20px;
+    }
+    .index-mod-t3:hover {
+        color: #C4E6D8;
+        font-size: 15px;
+    }
+/*首页公共标题栏结束*/
+
+/*新闻模块*/
+    .index-news {
+        width: 1080px;
+        height: 400px;
+        margin: 20px auto;
+    }
+    .news-content {
+        width: 100%;
+        height: 100%;
+    }
+    .news-content ul {
+        width: 100%;
+        height: 100%;
+    }
+    .news-content li {
+        height: 80%;
+        width: 24%;
+        margin-top: 15px;
+        position: relative;
+        border: 1px solid #ccc;
+    }
+    .news-content li:nth-child(1) {
+        float: left;
+    }
+    .news-content li:nth-child(2) {
+        float: left;
+        margin-left: 1.33%; 
+    }
+    .news-content li:nth-child(3) {
+        float: right;
+    }
+    .news-content li:nth-child(4) {
+        float: right;
+        margin-right: 1.33%;
+    }
+    .news-content li img {
+        height: 70%;
+        width: 100%;
+        border-bottom: 1px solid #BCCED6;
+    }
+    .news-content li a {
+        color: black;
+    }
+    .news-content li h1 {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        text-align: center;
+        background: #1583C1;
+        font-size: 20px;
+        color: white;
+        opacity:0.5; 
+        filter:alpha(opacity=50);
+    }
+    .news-content li:hover {
+        border-color: #189AE2;
+    }
+    .news-content li:hover img {
+        border-color: #189AE2; 
+    }
+    .news-content li:hover h1 {
+        opacity:0.9; 
+        filter:alpha(opacity=90);
+    }
+    .news-content li:hover p {
+        color: #1C65B1;
+    }
+    .news-content li span {
+        width: 90%;
+        height: 26%;
+        display: block;
+        margin: 0 auto;
+        text-align: left;
+        font-size: 16px;
+        overflow: hidden;
+    }
+    .news-content li span p {
+        overflow: hidden;
+        /*white-space: nowrap;*/
+        text-overflow: ellipsis;
+        text-indent: 1.5em;
+    }
+    /*.news-content dd a {
+        width: 90%;
+        text-align: left;
+        border-bottom: 0; 
+        多于的部分用...代替
+        white-space:nowrap; 
+        overflow: hidden;
+        text-overflow: ellipsis;
+    } */    
+/*新闻模块结束*/
+
+/*业绩案例*/
+    .index-pro {
+        width: 1080px;
+        height: 400px;
+        margin: 0 auto;
+        margin-top: 20px;
+        position: relative;
+        overflow: hidden;
+    }
+    .index-pro .pro-content {
+        width: 100%;
+        height: 100%;
+        margin-top: 15px;
+    }
+    /*图片*/
+    .pro-content .cot-l {
+        width: 50%;
+        height: 100%;
+        float: left;
+    }
+    .top-box {
+        width: 80%;
+        height: 70%;
+        display: block;
+        margin: 0 auto;
+    }
+    .pro-content span {
+        font-size: 22px;
+        display: block;
+        background: #189AE2;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 10px;
+        text-align: center;
+        border-radius: 3px;
+    }
+    .pro-content span:hover {
+        background: #336699;
+    }
+    /*视频*/
+    .pro-content .cot-r {
+        width: 50%;
+        height: 100%;
+        float: right;
+        text-align: center;
+    }
+/*项目案例结束*/
