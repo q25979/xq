@@ -161,8 +161,68 @@
 	// 7.楼盘
 	function properties(){
 		$cnt_obj = new ContentObj();
-	
-		$cnt_obj->t1 = "暂无内容";
+		
+		$cnt_obj->img_src = 'res/1.jpg';
+		$cnt_obj->basicFrame();
+
+		$cnt_obj->img_src = 'res/2.jpg';
+		$cnt_obj->basicFrame();
+
+		$cnt_obj->img_src = 'res/3.jpg';
+		$cnt_obj->basicFrame();
+
+		$cnt_obj->img_src = 'res/4.jpg';
+		$cnt_obj->basicFrame();
+
+		$cnt_obj->img_src = 'res/5.jpg';
+		$cnt_obj->basicFrame();
+
+		$cnt_obj->img_src = 'res/6.jpg';
+		$cnt_obj->basicFrame();
+
+		$cnt_obj->img_src = 'res/7.jpg';
+		$cnt_obj->basicFrame();
+
+		$cnt_obj->img_src = 'res/8.jpg';
+		$cnt_obj->basicFrame();
+
+		$cnt_obj->img_src = 'res/9.jpg';
+		$cnt_obj->basicFrame();
+
+		$cnt_obj->img_src = 'res/10.jpg';
+		$cnt_obj->basicFrame();
+
+		$cnt_obj->img_src = 'res/11.jpg';
+		$cnt_obj->basicFrame();
+
+		$cnt_obj->img_src = 'res/1.jpg';
+		$cnt_obj->basicFrame();
+
+		$cnt_obj->img_src = 'res/12.jpg';
+		$cnt_obj->basicFrame();
+
+		$cnt_obj->img_src = 'res/13.jpg';
+		$cnt_obj->basicFrame();
+
+		$cnt_obj->img_src = 'res/14.jpg';
+		$cnt_obj->basicFrame();
+
+		$cnt_obj->img_src = 'res/15.jpg';
+		$cnt_obj->basicFrame();
+
+		$cnt_obj->img_src = 'res/16.jpg';
+		$cnt_obj->basicFrame();
+
+		$cnt_obj->img_src = 'res/17.jpg';
+		$cnt_obj->basicFrame();
+
+		$cnt_obj->img_src = 'res/18.jpg';
+		$cnt_obj->basicFrame();
+
+		$cnt_obj->img_src = 'res/19.jpg';
+		$cnt_obj->basicFrame();
+
+		$cnt_obj->img_src = 'res/20.jpg';
 		$cnt_obj->basicFrame();
 	}
 
@@ -245,7 +305,7 @@
 
 			    <td><a href ="xq-uav-sale.php?id=303" alt ="精灵4PRO"><img src ="images/JL4PRO.png"/></a></td>
 
-			    <td><a href ="xq-uav-sale.php?id=303" alt ="精灵4PRO+"><img src ="images/JL4PRO+.png"/></a></td>
+			    <td><a href ="xq-uav-sale.php?id=303" alt ="精灵4PRO+"><img src ="images/jl4pro2.png"/></a></td>
 
 			    <td><a href ="xq-uav-sale.php?id=303" alt ="悟2"><img src ="images/wu2.png"/></a></td>
 
