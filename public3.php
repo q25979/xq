@@ -141,6 +141,18 @@
 		width='660'
 		>
 		</iframe>";
+
+		$cnt_obj->init();
+		$cnt_obj->t1 = '莲花库区三维建模（局部）';
+		$cnt_obj->t2 = '莲花水库航拍生成高清三维模型及高精度地形图。';
+		$cnt_obj->img_src = 'res/san1.jpg';
+		$cnt_obj->basicFrame();
+
+		$cnt_obj->img_src = 'res/san2.bmp';
+		$cnt_obj->basicFrame();
+
+		$cnt_obj->img_src = 'res/san3.bmp';
+		$cnt_obj->basicFrame();
 	}
 
 	// 6.抢险救灾
@@ -162,6 +174,10 @@
 	function properties(){
 		$cnt_obj = new ContentObj();
 		
+		$cnt_obj->t1 = '楼盘实景航拍';
+		$cnt_obj->txt = '为客户提供楼盘实景航拍照片及视频。';
+		$cnt_obj->basicFrame();
+		$cnt_obj->init();
 		$cnt_obj->img_src = 'res/1.jpg';
 		$cnt_obj->basicFrame();
 
@@ -585,6 +601,20 @@
 
 		$ach->v_src = 'https://imgcache.qq.com/tencentvideo_v1/playerv3/TPout.swf?max_age=86400&v=20161117&vid=y0390xcdjwr&auto=0';
 		$ach->video();
+
+		$ach->init();
+		$ach->t1 = '莲花库区三维建模（局部）';
+		$ach->t2 = '莲花水库航拍生成高清三维模型及高精度地形图。';
+		$ach->basicFrame();
+		$ach->init();
+		$ach->img_src = 'res/san1.jpg';
+		$ach->basicFrame();
+
+		$ach->img_src = 'res/san2.bmp';
+		$ach->basicFrame();
+
+		$ach->img_src = 'res/san3.bmp';
+		$ach->basicFrame();
 	} 
 	
 	// 公司简介

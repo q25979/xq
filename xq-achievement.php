@@ -74,10 +74,11 @@
 					<?php  
 						$id = intval($_GET["id"]);
 
-						if ($id==501)
+						if ($id==501 || $id==502)
+						{
 							echo uav_app();
-						if ($id==502)
-							echo uav_app();
+							echo properties();
+						}
 						if ($id==503)
 							echo eng_service();
 					?>
